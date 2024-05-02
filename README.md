@@ -85,9 +85,9 @@ chmod 700 get_helm.sh
 
 # Creating a Virtual Environment
  sudo apt install python3.10-venv
- python3 -m venv stack-dados-k8s
- source stack-dados-k8s/bin/activate
- deactivate  stack-dados-k8s
+ python3 -m venv venv
+ source venv/bin/activate
+ deactivate  venv
 
  # Installing ArgoCD on Kubernetes
  helm repo add argo https://argoproj.github.io/argo-helm
